@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 300px;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a, .subtext {
+    font-size: 18px;
+    color: #b3b4b8;
+}
+
+.boxpic{
+    display: flex;
+    padding: 100px 300px;
+    justify-content: space-between;
+}
+
+.herobox {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.herotext {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin-bottom: 16px;
+}
+
+.subtext {
+    width: 500px;
+    margin-bottom: 16px;
+}
+
+button {
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 16px;
+    background: rgb(38, 134, 224);
+    margin-right: auto;
+    padding: 8px 32px;
+}
+
+.placeholder {
+    width: 600px;
+    height: 250px;    
+    line-height: 125px;
+    text-align: center;
+    border: 10px white;
+}
