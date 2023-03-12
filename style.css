@@ -11,6 +11,7 @@ body {
     flex-direction: column;
     background-color: #1F2937;
 }
+
 /* first main container */ 
 .header {
     display: flex;
@@ -31,7 +32,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    gap: 8px;
+    gap: 24px;
 }
 
 a {
@@ -71,7 +72,7 @@ a, .subtext {
 button {
     color: white;
     font-family: Roboto, sans-serif;
-    border-radius: 16px;
+    border-radius: 8px;
     font-size: 16px;
     font-weight: 600;
     background: rgb(38, 134, 224);
@@ -126,9 +127,10 @@ button {
 }
 
 .infoimg {
+    border: 2px solid rgb(26, 44, 199);
     border-radius: 16px;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
 }
 
 .infosubtext {
@@ -197,7 +199,8 @@ button {
 
 button#signup {
     border: 2px solid white;
-    margin-left: 8px;
+    border-radius: 16px;
+    margin-left: 16px;
 }
 /*footer*/
 
