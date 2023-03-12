@@ -4,11 +4,14 @@ body {
 }
 
 .container {
-    background-color: #1F2937;
     display: flex;
-    flex-direction: column;
 }
 
+#top {
+    flex-direction: column;
+    background-color: #1F2937;
+}
+/* first main container */ 
 .header {
     display: flex;
     flex: 1;
@@ -20,7 +23,7 @@ body {
 .logo {
     color: #F9FAF8;
     font-size: 24px;
-    font-weight: 900;
+    font-weight: 800;
 }
 
 ul {
@@ -44,12 +47,13 @@ a, .subtext {
     display: flex;
     padding: 100px 300px;
     justify-content: space-between;
+    max-height: 300px;
 }
 
 .herobox {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    max-width: 300px;
 }
 
 .herotext {
@@ -64,7 +68,7 @@ a, .subtext {
     margin-bottom: 16px;
 }
 
-button {
+#first {
     color: white;
     font-family: Roboto, sans-serif;
     font-size: 16px;
@@ -77,9 +81,130 @@ button {
 }
 
 .placeholder {
-    width: 600px;
-    height: 250px;    
+    position: relative;
+    width: 700px;
+    height: 250px;
+    align-self: center;
     line-height: 125px;
     text-align: center;
     border: 10px white;
+    margin-left: 200px;
 }
+
+/* second container */ 
+.info {
+    display: flex;
+    flex: 1;
+    background-color: white;
+    justify-content: center;
+}
+
+.infoheader {
+    font-size: 36px;
+    font-weight: 800;
+    padding: 36px;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 20px 300px;
+}
+
+.infobox {
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+}
+
+.infoimg {
+    border-radius: 16px;
+    width: 100px;
+    height: 100px;
+}
+
+.infosubtext {
+    width: 100px;
+    text-align: center;
+}
+
+/*third container*/
+
+#third {
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+}
+
+.txtthird {
+    display: flex;
+    flex-direction: column;
+    margin: 200px 300px;
+}
+
+.bigassquote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.sig {
+    font-size: 24px;
+    font-weight: 800;
+    align-self: flex-end;
+}
+
+/*4th cont*/
+
+#fourth {
+    justify-content: center;
+    align-items: center;
+
+}
+
+.promptbox {
+    display: flex;
+    background-color: rgb(129, 201, 224);
+    border-radius: 16px;
+    max-width: 1000px;
+    padding: 50px;
+    margin: 100px;
+}
+
+#txtfourcont {
+    display: flex;
+    flex-direction: column;
+}
+
+.txtfour, .foursubtxt {
+    color: #F9FAF8;
+}
+
+.txtfour {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+#signup {
+    color: white;
+    border: 2px solid white;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    background: rgb(38, 134, 224);
+    margin-right: auto;
+    padding: 8px 32px;
+    margin-left: 8px;
+}
+
+/*footer*/
