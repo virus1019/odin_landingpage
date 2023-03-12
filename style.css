@@ -200,3 +200,14 @@ button#signup {
     margin-left: 8px;
 }
 /*footer*/
+
+.footer {
+    display: flex;
+    flex: 1;
+    background-color: rgb(54, 48, 48);
+    justify-content: center;
+    color: #E5E7EB;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 24px;
+}
