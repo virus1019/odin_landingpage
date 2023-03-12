@@ -68,16 +68,16 @@ a, .subtext {
     margin-bottom: 16px;
 }
 
-#first {
+button {
     color: white;
     font-family: Roboto, sans-serif;
+    border-radius: 16px;
     font-size: 16px;
     font-weight: 600;
-    border: none;
-    border-radius: 16px;
     background: rgb(38, 134, 224);
     margin-right: auto;
     padding: 8px 32px;
+    border: none;
 }
 
 .placeholder {
@@ -195,16 +195,8 @@ a, .subtext {
     margin-bottom: 8px;
 }
 
-#signup {
-    color: white;
+button#signup {
     border: 2px solid white;
-    border-radius: 16px;
-    font-size: 16px;
-    font-weight: 600;
-    background: rgb(38, 134, 224);
-    margin-right: auto;
-    padding: 8px 32px;
     margin-left: 8px;
 }
-
 /*footer*/
